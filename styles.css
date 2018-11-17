@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+}
+
+.land-page {
+  display: grid;
+  grid-template-rows: 32.5% 65% 2.5%;
+  background-color: white;
+  height: 100vh;
+  text-align: center;
+}
+
+input:focus {
+  outline:none !important;
+}
+
+.land-container{
+  padding-left: 20%;
+  padding-right: 20%;
+
+  font-family: 'Playfair Display', serif;
+  
+  text-align: center;
+  color: black;
+}
+
+.header {
+  font-size: 6vw;
+  font-size: 11vmin;
+  text-align: left;
+}
+
+.sub-header{
+  padding-left: 0.5%;
+  font-size: 2vw;
+  font-size: 4vmin;
+  text-align: left;
+}
+
+.icons-flex{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#first-icon {
+  margin-left: .4%;
+}
+
+.icon {
+  height: 3vh;
+  width: 3vh;
+  margin-left: 4vh;
+  margin-top: 4vh;
+}
+
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+.color-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.magenta-bar{
+  flex-grow: 1;
+  background-color: #b22758;
+}
+
+.red-bar {
+  flex-grow: 1;
+  background-color: #EB1820;
+}
+
+.yellow-bar {
+  flex-grow: 1;
+  background-color: #FFBD22
+}
+
+.blue-bar {
+  flex-grow: 1;
+  background-color: #24308B
+}
+
+.pages{
+  font-family: 'Muli', sans-serif;
+  font-size: 2vh;
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.page {
+  display: grid;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  grid-template-columns: 50% 50%
+}
+
+.section {
+
+}
+
+.info {
+
+}
+
+.page a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px dotted gray;
+}
+
+.page a:visited {
+  color: black;
+}
+
+.page a:hover {
+  text-decoration: none;
+  color: #b22758;
+  border-bottom: 1px dotted #b22758;
+}
+  
+
