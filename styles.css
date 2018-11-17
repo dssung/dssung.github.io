@@ -1,37 +1,27 @@
-body {
+body{
   margin: 0;
 }
 
-.land-page {
+.land-page{
   display: grid;
   grid-template-rows: 32.5% 65% 2.5%;
-  background-color: white;
   height: 100vh;
-  text-align: center;
-}
-
-input:focus {
-  outline:none !important;
 }
 
 .land-container{
   padding-left: 20%;
   padding-right: 20%;
-
   font-family: 'Playfair Display', serif;
-  
-  text-align: center;
   color: black;
 }
 
-.header {
+.header{
   font-size: 6vw;
   font-size: 11vmin;
   text-align: left;
 }
 
 .sub-header{
-  padding-left: 0.5%;
   font-size: 2vw;
   font-size: 4vmin;
   text-align: left;
@@ -51,18 +41,6 @@ input:focus {
   width: 3vh;
   margin-left: 4vh;
   margin-top: 4vh;
-}
-
-a.nostyle:link {
-  text-decoration: inherit;
-  color: inherit;
-  cursor: auto;
-}
-
-a.nostyle:visited {
-  text-decoration: inherit;
-  color: inherit;
-  cursor: auto;
 }
 
 .color-bar {
@@ -90,43 +68,49 @@ a.nostyle:visited {
   background-color: #24308B
 }
 
-.pages{
-  font-family: 'Muli', sans-serif;
-  font-size: 2vh;
+.pages {
   margin-top: 10%;
-  margin-left: 15%;
-  margin-right: 15%;
 }
 
-.page {
-  display: grid;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  grid-template-columns: 50% 50%
+.container {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.8vh;
 }
 
-.section {
-
+.left {
+  margin-top: 2vh;
 }
 
-.info {
-
+.right{
+  margin-top: 2vh;
+  margin-bottom: 2vh; 
 }
 
-.page a {
+.right a {
   color: black;
   text-decoration: none;
   border-bottom: 1px dotted gray;
 }
 
-.page a:visited {
-  color: black;
+.right a:hover {
+  text-decoration: none;
+  color: #646464;
+  border-bottom: 1px dotted #919191;
 }
 
-.page a:hover {
-  text-decoration: none;
-  color: #b22758;
-  border-bottom: 1px dotted #b22758;
+hr {
+  border: 0;
+  height: 1px;
+  background: black;
 }
+
+.footer{
+  margin-bottom: 5vh;
+}
+
+
+
+
+
   
 
